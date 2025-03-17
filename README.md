@@ -237,6 +237,6 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
-file:///C:/Users/admin/Pictures/Saved%20Pictures/OneDrive/Desktop/web%20aplicaton/.vscode/web%20APPLICATION%201.html
+///C:/Users/admin/Pictures/Saved%20Pictures/OneDrive/Desktop/web%20aplicaton/.vscode/web%20APPLICATION%201.html#account
 ## RESULT
 The program for creating commercial website using CSS Flexbox is executed successfully.
