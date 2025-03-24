@@ -1,5 +1,5 @@
 # Ex02 Commercial Website
-## Date:
+## Date:24/03/2025
 
 ## AIM
 To create a commercial website using CSS Flexbox.
@@ -51,24 +51,25 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
-!DOCTYPE html>
+index.html
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <me<ta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY BUISNESS - COMMERCIAL WEBSITE</title>
+    <title>MY BUSINESS - COMMERCIAL WEBSITE</title>
     <style>
-       
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #407e09;
-            color: #3b0525;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #0b2633;
-            color: rgb(230, 246, 10);
+            background: #169139;
+            color: #fff;
             padding: 15px;
             text-align: center;
             font-size: 24px;
@@ -86,7 +87,7 @@ Upload to GitHub Pages for free hosting.
             margin: 0 15px;
         }
         nav ul li a {
-            color: rgb(18, 70, 9);
+            color: #fff;
             text-decoration: none;
             font-size: 18px;
             padding: 8px 15px;
@@ -99,15 +100,16 @@ Upload to GitHub Pages for free hosting.
         .section {
             padding: 40px;
             text-align: center;
-            background: rgb(11, 136, 129);
+            background: #fff;
             margin: 20px auto;
             width: 80%;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(60, 17, 52, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
         }
         button {
             background: #0a5fb0;
-            color: rgb(19, 53, 133);
+            color: #fff;
             padding: 12px 20px;
             border: none;
             cursor: pointer;
@@ -116,17 +118,16 @@ Upload to GitHub Pages for free hosting.
             transition: 0.3s;
         }
         button:hover {
-            background: #24620b;
+            background: #cc5500;
         }
         footer {
-            background: #831674;
-            color: rgb(8, 97, 133);
+            background: #164154;
+            color: #fff;
             text-align: center;
             padding: 15px;
             margin-top: 20px;
             font-size: 14px;
         }
-        
         .contact-form {
             display: flex;
             flex-direction: column;
@@ -142,10 +143,9 @@ Upload to GitHub Pages for free hosting.
             padding: 8px;
             margin-bottom: 10px;
             width: 100%;
-            border: 1px solid #385f51;
+            border: 1px solid #ccc;
             border-radius: 5px;
         }
-        
         @media (max-width: 768px) {
             nav ul {
                 flex-direction: column;
@@ -158,11 +158,9 @@ Upload to GitHub Pages for free hosting.
     </style>
 </head>
 <body>
-
     <header>
         IT SERVICES
     </header>
-
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -172,16 +170,14 @@ Upload to GitHub Pages for free hosting.
             <li><a href="#account">Account</a></li>
         </ul>
     </nav>
-
     <section id="home" class="section">
         <h2>"Upgrade your business with cutting-edge IT solutions—secure, scalable, and reliable."</h2>
         <p>"Your success, powered by technology—custom IT solutions built for growth."</p>
         <button onclick="alert('Welcome to My Business!')">Learn More</button>
     </section>
-
     <section id="services" class="section">
         <h2>Our Services</h2>
-        <p>We offer a various services to enhance the experience of shopping and provide value-added benefits:</p>
+        <p>We offer various services to enhance the experience of shopping and provide value-added benefits:</p>
         <ul>
             <li><strong>Discounts:</strong> Get amazing deals and exclusive discounts on your favorite products.</li>
             <li><strong>Device Exchange:</strong> Trade in your old gadgets for exciting new ones at unbeatable prices.</li>
@@ -190,13 +186,11 @@ Upload to GitHub Pages for free hosting.
         </ul>
         <button onclick="alert('Explore our amazing services!')">View All Services</button>
     </section>
-
     <section id="about" class="section">
         <h2>About Our Company</h2>
-        <p>We deliver innovative IT solutions tailored to your business needs.Empowering businesses with secure, scalable, and cutting-edge technology solutions.Your trusted IT partner—delivering expertise, innovation, and reliability."</p>
+        <p>We deliver innovative IT solutions tailored to your business needs. Empowering businesses with secure, scalable, and cutting-edge technology solutions. Your trusted IT partner—delivering expertise, innovation, and reliability.</p>
         <p>We simplify IT, so you can focus on what matters—growing your business.</p>
     </section>
-
     <section id="contact" class="section">
         <h2>Contact Us</h2>
         <p>We'd love to hear from you! Reach out to us for any queries, feedback, or assistance.</p>
@@ -210,17 +204,14 @@ Upload to GitHub Pages for free hosting.
             <button type="submit">Send Message</button>
         </form>
     </section>
-
     <section id="account" class="section">
         <h2>User Account Management</h2>
         <p>Login to manage your account, track your orders, and personalize your preferences.</p>
         <button onclick="login()">Login</button>
     </section>
-
     <footer>
         <p>&copy; 2025 My Business. All Rights Reserved.</p>
     </footer>
-
     <script>
         function login() {
             let username = prompt("Enter your username:");
@@ -231,12 +222,13 @@ Upload to GitHub Pages for free hosting.
             }
         }
     </script>
-
 </body>
 </html>
-
-
+```
 ## OUTPUT
-##C:/Users/admin/Pictures/Saved%20Pictures/OneDrive/Desktop/web%20aplicaton/.vscode/web%20APPLICATION%201.html#account
-## RESULT
+![Screenshot 2025-03-24 151134](https://github.com/user-attachments/assets/3db1920c-53c5-48a4-8d83-e684323c5505)
+![Screenshot 2025-03-24 151147](https://github.com/user-attachments/assets/1d3a9e41-9541-4f4a-9018-0d8d7dd5ee6f)
+![Screenshot 2025-03-24 151158](https://github.com/user-attachments/assets/4ae8c5fe-f1d6-44e5-87c0-f4322a5f4e93)
+
+## RESULT:
 The program for creating commercial website using CSS Flexbox is executed successfully.
